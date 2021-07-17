@@ -2,3 +2,4 @@ scrapy
 scrapy-selenium
 ipython
 ipdb
+elasticsearch
