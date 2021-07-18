@@ -9,7 +9,7 @@ SPIDER_MODULES = ['TweetScraper.spiders']
 NEWSPIDER_MODULE = 'TweetScraper.spiders'
 ITEM_PIPELINES = {
     # 'crawlab.pipelines.CrawlabMongoPipeline': 888,
-    'TweetScraper.pipelines.CustomMongoPipeline':888,
+    'TweetScraper.pipelines.CustomPipeline':888,
 }
 
 DOWNLOAD_DELAY = 1.0
