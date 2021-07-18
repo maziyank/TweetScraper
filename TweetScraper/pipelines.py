@@ -8,5 +8,7 @@ class CustomMongoPipeline(object):
 
         # labeling data dari sini
 
+        # convert to graph DB
+
         return item
 
